@@ -214,7 +214,7 @@ load_configs = function(config_data = NULL, custom_code = NA, exclusion_pattern 
           if (!all(sapply(val, is_int))) {
             stop(paste0(sQuote(ky), " must be an integer"))
           }
-          as.integer(val)
+          as.numeric(val)
         } else if (typ == "boolean") {
           if (!all(sapply(val, is_boolean))) {
             stop(paste0(sQuote(ky), " must be a boolean"))
