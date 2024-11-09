@@ -302,7 +302,7 @@ get_config_type_from_variable <- function(configs_list) {
     value <- if (is_date(cnf))
       "date"
     else if (is_int(cnf))
-      "integer"
+      "number"
     else if (is_number(cnf))
       "number"
     else if (is_boolean(cnf))
