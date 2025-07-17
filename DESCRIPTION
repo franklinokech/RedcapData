@@ -33,6 +33,5 @@ Collate:
     'redcap_helper.R'
     'redcap.R'
     'validate_fields_without_ranges.R'
-    'import_2_redcap.R'
     'zzz.R'
 RoxygenNote: 6.0.1
